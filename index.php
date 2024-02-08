@@ -17,7 +17,7 @@
             foreach ($posts as $post) {
             ?>
             <div class="col-md-6 offset-md-3"> <!-- Ajusta el tamaño de la columna según tu preferencia -->
-                <div class="post-card"> <!-- Alinea el contenido al centro -->
+                <div class="post-carsd"> <!-- Alinea el contenido al centro -->
                     <img class="post-image" src="<?php echo $post['image_url']; ?>" alt="<?php echo $post['title']; ?>">
                     <h2 class="post-title"><?php echo $post['title']; ?></h2>
                     <p class="post-description"><?php echo $post['description']; ?></p>
