@@ -2,7 +2,7 @@
 function connectDB() {
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "Ceep12345678.";
     $dbname = "instadam";
 
     // Create connection
