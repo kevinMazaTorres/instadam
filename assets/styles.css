@@ -1,0 +1,49 @@
+/*-------------------------------------------------NAVBAR-------------------------------------------------*/
+.navbar-nav .nav-link.material-icons {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    margin-left: 10px; /* Ajusta el margen entre los íconos */
+}
+
+/* Estilos para la alineación a la derecha */
+.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+
+.navbar-brand img {
+    height: 40px; /* Ajusta la altura de la imagen según sea necesario */
+    margin-right: 10px; /* Ajusta el margen derecho para separar la imagen del texto */
+}
+
+/*-------------------------------------------------POST-------------------------------------------------*/
+.post-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px; /* Cambiado a margin-top */
+    margin-bottom: 10px;
+}
+
+.post-description {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.col-md-4, .col-md-6{
+    margin-top: 30px;
+}
